@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #wrapper {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 20px; /*distance between browser window and eyes, enabling 3D , z-axis */
+  }
+  
+ .description{
+  
+    position: absolute;
+    background-color: black;
+    padding: 0.5rem 2.5rem;
+    top:12%;
+    left:60%;
+    transform: translateX(-50%) translateX(-50%) ;
+    color: white;
+   font-size: 2.5rem;
+   font-weight: 900;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1 {
+    background-image: url(13.jpg);
+  }
+  
+  .bg2 {
+    background-image: url(14.jpg);
+  }
+  
+  .bg3 {
+    background-image: url(15.jpg);
+  }
+  .bg4 {
+    background-image: url(11.jpg);
+  }
+  .bg5 {
+    background-image: url(12.jpg);
+  }
+  
+  
